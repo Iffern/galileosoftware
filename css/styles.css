@@ -285,6 +285,17 @@ input::-webkit-input-placeholder {
     color: transparent;
 }
 
+.header2{
+    color: #0f6674;
+    font-size: 7vw;
+    text-align: center;
+    margin: 10vh auto 5vh;
+    border-bottom: solid;
+    border-color: #4e555b;
+    border-width: 0.2vh;
+    padding: 5vh;
+}
+
 @media screen and (max-width: 767px){
     .hoover img{
         width: 45vw;
@@ -297,7 +308,7 @@ input::-webkit-input-placeholder {
     }
 
     #logo{
-
+        width: 50vw;
     }
 }
 
@@ -306,5 +317,8 @@ input::-webkit-input-placeholder {
         width: 80vw;
         height: 50vm;
         margin: 1vh auto 1vh auto;
+    }
+    #logo{
+        width: 70vw;
     }
 }
