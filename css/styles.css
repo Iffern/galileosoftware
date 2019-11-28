@@ -310,6 +310,11 @@ input::-webkit-input-placeholder {
     #logo{
         width: 50vw;
     }
+
+    .person{
+        width: 40vw;
+        height: 40vw;
+    }
 }
 
 @media screen  and (max-width: 575px){
@@ -320,5 +325,9 @@ input::-webkit-input-placeholder {
     }
     #logo{
         width: 70vw;
+    }
+    .person{
+        width: 80vw;
+        height: 80vw;
     }
 }
