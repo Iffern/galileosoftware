@@ -1,6 +1,7 @@
 #logo{
     align-items: center;
-    height: 60vh;
+    width: 30vw;
+    height: auto;
 }
 
 html{
@@ -57,8 +58,8 @@ html{
 .person {
     border: 10px solid transparent;
     margin-bottom: 10vh;
-    width: 44vh;
-    height: 44vh;
+    width: 25vw;
+    height: 25vw;
     opacity: 0.9;
 }
 .person:hover {
@@ -84,7 +85,7 @@ input {
 
 .header{
     color: #0f6674;
-    font-size: 7vh;
+    font-size: 10vw;
     text-align: center;
     margin: 10vh auto 5vh;
     border-bottom: solid;
@@ -212,7 +213,7 @@ border-style: solid;
 }
 
 
-#logobottom{
+#logobottom img{
     height: 30vh;
     width: 30vh;
 }
@@ -284,3 +285,26 @@ input::-webkit-input-placeholder {
     color: transparent;
 }
 
+@media screen and (max-width: 767px){
+    .hoover img{
+        width: 45vw;
+        height: 40vh;
+        margin: 1vh auto 1vh auto;
+    }
+
+    #creativeteam{
+        width: 80vw;
+    }
+
+    #logo{
+
+    }
+}
+
+@media screen  and (max-width: 575px){
+    .hoover img{
+        width: 80vw;
+        height: 50vm;
+        margin: 1vh auto 1vh auto;
+    }
+}
